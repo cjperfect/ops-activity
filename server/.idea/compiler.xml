@@ -17,17 +17,19 @@
         </processorPath>
         <module name="app-manage" />
         <module name="common-web" />
-        <module name="user-api" />
+        <module name="activity-manage-api" />
         <module name="user-server" />
         <module name="common-core" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="code-generator" target="17" />
+      <module name="user-api" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="activity-manage-api" options="-parameters" />
       <module name="app-manage" options="-parameters" />
       <module name="code-generator" options="-parameters" />
       <module name="common-core" options="-parameters" />

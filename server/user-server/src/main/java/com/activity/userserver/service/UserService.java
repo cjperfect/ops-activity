@@ -1,6 +1,6 @@
 package com.activity.userserver.service;
 
-import com.activity.userapi.vo.UserVO;
+import com.activity.manageapi.vo.UserVO;
 import com.activity.userserver.entity.UserEntity;
 import com.baomidou.mybatisplus.spring.service.IService;
 

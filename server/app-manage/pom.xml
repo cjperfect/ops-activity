@@ -21,10 +21,10 @@
             <artifactId>common-web</artifactId>
         </dependency>
 
-        <!-- 用户服务契约（DTO + Feign 接口） -->
+        <!-- 多服务共享契约（DTO、VO 与 Feign 接口） -->
         <dependency>
             <groupId>com.activity</groupId>
-            <artifactId>user-api</artifactId>
+            <artifactId>activity-manage-api</artifactId>
         </dependency>
 
         <!-- REST 接口 -->

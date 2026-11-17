@@ -24,7 +24,7 @@
         <!-- 对外契约：DTO 与 Feign 接口定义 -->
         <dependency>
             <groupId>com.activity</groupId>
-            <artifactId>user-api</artifactId>
+            <artifactId>activity-manage-api</artifactId>
         </dependency>
 
         <dependency>

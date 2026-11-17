@@ -1,6 +1,6 @@
 package com.activity.userserver.service.impl;
 
-import com.activity.userapi.vo.UserVO;
+import com.activity.manageapi.vo.UserVO;
 import com.activity.userserver.entity.UserEntity;
 import com.activity.userserver.mapper.UserMapper;
 import com.activity.userserver.service.UserService;

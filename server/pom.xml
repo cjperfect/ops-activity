@@ -21,7 +21,7 @@
     <modules>
         <module>common-core</module>
         <module>common-web</module>
-        <module>user-api</module>
+        <module>activity-manage-api</module>
         <module>app-manage</module>
         <module>user-server</module>
     </modules>
@@ -69,7 +69,7 @@
             </dependency>
             <dependency>
                 <groupId>com.activity</groupId>
-                <artifactId>user-api</artifactId>
+                <artifactId>activity-manage-api</artifactId>
                 <version>${project.version}</version>
             </dependency>
         </dependencies>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.activity</groupId>
+        <artifactId>server</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+
+    <artifactId>activity-manage-api</artifactId>
+    <name>activity-manage-api</name>
+    <description>活动管理共享接口契约：DTO、VO 与 OpenFeign 客户端接口，供多个服务模块共同依赖</description>
+    <!-- 契约库：普通 jar，不加 spring-boot-maven-plugin -->
+
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        <!-- Result 统一返回体 -->
+        <dependency>
+            <groupId>com.activity</groupId>
+            <artifactId>common-core</artifactId>
+        </dependency>
+
+        <!--
+            仅编译期需要 @FeignClient 注解；用 optional 避免把 Feign 运行时
+            传递给所有依赖 activity-manage-api 的模块（服务提供方并不需要 Feign）。
+            调用方（app-manage）自己引 spring-cloud-starter-openfeign。
+        -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-openfeign-core</artifactId>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-annotations</artifactId>
+        </dependency>
+    </dependencies>
+
+</project>
