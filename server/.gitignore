@@ -1,2 +1,5 @@
 # 本地环境配置（包含数据库密码）
 .env
+
+# Local Nacos credentials
+/config/nacos-local.properties

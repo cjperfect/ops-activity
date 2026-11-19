@@ -8,7 +8,11 @@ docker-compose ps nacos
 ```
 
 本项目使用 Nacos 3.1.1 单机模式和独立数据卷。控制台：[http://127.0.0.1:18881](http://127.0.0.1:18881)。
-仅绑定本机地址，开发环境关闭鉴权；部署到共享环境前应开启鉴权并配置客户端凭证。
+仅绑定本机地址，已开启客户端、管理 API 与控制台鉴权。管理员账号为 `nacos`，随机密码保存在根目录 `config/nacos-local.properties` 中（已加入 Git 忽略规则，权限为 600）。
+
+两个 Java 服务从 `./config/nacos-local.properties` 自动读取凭证，因此 IDEA 的 Working directory 应设为项目根目录。其他工作目录可通过环境变量 `NACOS_CREDENTIALS_FILE` 指定该文件的绝对路径。也可直接设置 `NACOS_USERNAME`、`NACOS_PASSWORD` 环境变量。修改凭证后重启应用。
+
+`.env` 中的 `NACOS_AUTH_TOKEN` 是服务端签名密钥，不是控制台登录密码。改变本地凭证文件不会自动修改数据库中的管理员密码；以后请通过控制台修改密码，并同步更新本地文件。
 
 | 用途 | 主机端口 |
 | --- | --- |
@@ -42,7 +46,7 @@ curl http://127.0.0.1:8080/api/user/list
 | USER_SERVER_PORT | 8090 | 用户服务监听端口 |
 
 根目录 `.env` 由 Docker Compose 自动读取，IDEA 启动 Java 服务时不会自动读取。
-使用上述默认配置可直接运行；需要覆盖时，在 IDEA Run Configuration 中设置环境变量。
+从项目根目录运行时会自动加载本地凭证文件；需要覆盖时，在 IDEA Run Configuration 中设置环境变量。
 应用部署到容器或其他主机时，必须配置彼此可达的注册地址和实例 IP。
 
 当前仅接入服务注册发现，尚未接入 Nacos 配置中心。

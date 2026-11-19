@@ -2,6 +2,8 @@ server:
   port: ${APP_MANAGE_PORT:8080}
 
 spring:
+  config:
+    import: optional:file:${NACOS_CREDENTIALS_FILE:./config/nacos-local.properties}
   application:
     name: app-manage
   # 数据库配置
@@ -14,6 +16,8 @@ spring:
   cloud:
     nacos:
       discovery:
+        username: ${NACOS_USERNAME:nacos}
+        password: ${NACOS_PASSWORD:}
         server-addr: ${NACOS_SERVER_ADDR:127.0.0.1:8858}
         namespace: ${NACOS_NAMESPACE:}
         group: ${NACOS_GROUP:ACTIVITY_GROUP}
