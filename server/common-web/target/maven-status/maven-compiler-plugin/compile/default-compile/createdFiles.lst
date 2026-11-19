@@ -1,2 +1,5 @@
 com/activity/common/web/config/CommonWebAutoConfiguration.class
+com/activity/common/web/config/CommonWebAutoConfiguration$1.class
 com/activity/common/web/GlobalExceptionHandler.class
+com/activity/common/web/auth/UserTokenArgumentResolver.class
+com/activity/common/web/annotation/UserToken.class

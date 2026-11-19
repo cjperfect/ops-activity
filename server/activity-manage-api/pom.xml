@@ -26,6 +26,10 @@
             <groupId>com.activity</groupId>
             <artifactId>common-core</artifactId>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-validation</artifactId>
+        </dependency>
 
         <!--
             仅编译期需要 @FeignClient 注解；用 optional 避免把 Feign 运行时

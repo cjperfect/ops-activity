@@ -5,12 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7fdff9c6-6be3-4c28-a199-8864d562c839" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/features/activity/activity-config-dialog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/src/features/activity/activity-config-dialog.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/features/activity/activity-list-page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/src/features/activity/activity-list-page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/features/activity/lib.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/src/features/activity/lib.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/features/activity/mock-data.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/src/features/activity/mock-data.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/features/activity/steps/basic-info-step.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/src/features/activity/steps/basic-info-step.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/features/activity/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/src/features/activity/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/vite.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/MarsCodeWorkspaceAppSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MarsCodeWorkspaceAppSettings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/64bd5b59-d51f-46f7-84b6-05bf52a60535.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/64bd5b59-d51f-46f7-84b6-05bf52a60535.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/data_sources_history.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/data_sources_history.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/data_source_mapping.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/data_source_mapping.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mybatisx/templates.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mybatisx/templates.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NACOS.md" beforeDir="false" afterPath="$PROJECT_DIR$/NACOS.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-manage/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app-manage/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-server/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/user-server/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity-manage-api/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/activity-manage-api/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity-manage-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/activity-manage-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity-manage-api/target/activity-manage-api-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/activity-manage-api/target/activity-manage-api-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity-manage-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/activity-manage-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity-manage-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/activity-manage-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-manage/src/main/java/com/activity/appmanage/AppManageApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-manage/src/main/java/com/activity/appmanage/AppManageApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-web/src/main/java/com/activity/common/web/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-web/src/main/java/com/activity/common/web/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-web/src/main/java/com/activity/common/web/config/CommonWebAutoConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-web/src/main/java/com/activity/common/web/config/CommonWebAutoConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-web/target/classes/com/activity/common/web/GlobalExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/common-web/target/classes/com/activity/common/web/GlobalExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-web/target/classes/com/activity/common/web/config/CommonWebAutoConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/common-web/target/classes/com/activity/common/web/config/CommonWebAutoConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-web/target/common-web-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common-web/target/common-web-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/common-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/common-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,61 +69,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000082338580056" />
-      <entry key="MS500" value="1.0961879512600539" />
-      <entry key="S2" value="1.5569037838162416" />
-      <entry key="S5" value="1.7912469837058378" />
-      <entry key="S10" value="1.8895206482740228" />
-      <entry key="S30" value="1.9617274482696445" />
-      <entry key="S60" value="1.9806770356593675" />
-      <entry key="M2" value="1.9902913896160705" />
-      <entry key="M5" value="1.9968165906109783" />
-      <entry key="M10" value="2.124144557901364" />
-      <entry key="M15" value="2.8211178967372517" />
-      <entry key="M30" value="9.076868251322036" />
-      <entry key="H1" value="28.072598640868883" />
-      <entry key="H2" value="56.57980798041526" />
-      <entry key="H4" value="82.92222001350615" />
-      <entry key="D1" value="115.79937210619221" />
-      <entry key="W1" value="122.78982715267212" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000000000000004" />
+      <entry key="S2" value="1.0002256591210508" />
+      <entry key="S5" value="1.052203691504523" />
+      <entry key="S10" value="1.3245823687706295" />
+      <entry key="S30" value="2.2148824949894426" />
+      <entry key="S60" value="2.874842881586625" />
+      <entry key="M2" value="3.955679204937982" />
+      <entry key="M5" value="7.2096440243264786" />
+      <entry key="M10" value="12.437114225384084" />
+      <entry key="M15" value="18.304513997838527" />
+      <entry key="M30" value="33.04655738099309" />
+      <entry key="H1" value="50.76199647184776" />
+      <entry key="H2" value="76.02847510593074" />
+      <entry key="H4" value="114.2937836673387" />
+      <entry key="D1" value="196.76462738285798" />
+      <entry key="W1" value="220.61767029053541" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="0.0" />
-      <entry key="S5" value="5.6001215427594445E-241" />
-      <entry key="S10" value="1.0723478015965556E-120" />
-      <entry key="S30" value="2.4883676006335895E-40" />
-      <entry key="S60" value="3.437840966653465E-20" />
-      <entry key="M2" value="4.3195802005079943E-10" />
-      <entry key="M5" value="6.905136672086237E-4" />
-      <entry key="M10" value="0.11125075542658965" />
-      <entry key="M15" value="0.6763023611932035" />
-      <entry key="M30" value="4.853059012290592" />
-      <entry key="H1" value="15.0502181043361" />
-      <entry key="H2" value="28.375127636698426" />
-      <entry key="H4" value="39.86377053215783" />
-      <entry key="D1" value="53.63265536366266" />
-      <entry key="W1" value="56.50446305669547" />
+      <entry key="MS500" value="1.3464758948105048E-256" />
+      <entry key="S2" value="1.6560997671618673E-64" />
+      <entry key="S5" value="4.802886830494218E-26" />
+      <entry key="S10" value="3.521322662118087E-13" />
+      <entry key="S30" value="1.605875906897126E-4" />
+      <entry key="S60" value="0.026009701644133243" />
+      <entry key="M2" value="0.37271999304175285" />
+      <entry key="M5" value="2.2345049270310375" />
+      <entry key="M10" value="5.412293200691441" />
+      <entry key="M15" value="8.594789263088675" />
+      <entry key="M30" value="16.065686802963224" />
+      <entry key="H1" value="24.919355783205543" />
+      <entry key="H2" value="37.17258932647635" />
+      <entry key="H4" value="54.878582146599236" />
+      <entry key="D1" value="91.64003244956635" />
+      <entry key="W1" value="102.08699224258292" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.2642561029441465" />
-      <entry key="MS500" value="0.8355620018454496" />
-      <entry key="S2" value="1.4486125704999702" />
-      <entry key="S5" value="1.7394071010463197" />
-      <entry key="S10" value="1.8618070800542226" />
-      <entry key="S30" value="1.9520492364222133" />
-      <entry key="S60" value="1.9757800687268388" />
-      <entry key="M2" value="1.9878282218924344" />
-      <entry key="M5" value="1.9965141830189779" />
-      <entry key="M10" value="2.234546531654421" />
-      <entry key="M15" value="3.4956059819557663" />
-      <entry key="M30" value="13.924043250174174" />
-      <entry key="H1" value="43.1133354478487" />
-      <entry key="H2" value="84.94574762863998" />
-      <entry key="H4" value="122.7794466318105" />
-      <entry key="D1" value="169.43054411498403" />
-      <entry key="W1" value="179.29406656113812" />
+      <entry key="MS100" value="0.9526379980439373" />
+      <entry key="MS500" value="0.9903428719330246" />
+      <entry key="S2" value="0.9977431965779318" />
+      <entry key="S5" value="1.0456857806791697" />
+      <entry key="S10" value="1.3069747781342043" />
+      <entry key="S30" value="2.1955173365500777" />
+      <entry key="S60" value="2.886202213789153" />
+      <entry key="M2" value="4.311178197375023" />
+      <entry key="M5" value="9.420606875383632" />
+      <entry key="M10" value="17.824687001104895" />
+      <entry key="M15" value="26.873909352230214" />
+      <entry key="M30" value="49.08886396803061" />
+      <entry key="H1" value="75.66356349764622" />
+      <entry key="H2" value="113.18820429567816" />
+      <entry key="H4" value="169.16308650880868" />
+      <entry key="D1" value="288.40211403451025" />
+      <entry key="W1" value="322.70425795980907" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -113,6 +140,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.activity-server.executor": "Debug",
     "Application.app-manage.executor": "Run",
     "Application.user-server.executor": "Run",
     "Application.userServer.executor": "Debug",
@@ -124,6 +152,7 @@
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/chenjiang/Desktop/activity/server/activity-server/src/main/java/com/activity/activityserver",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.jshint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -138,7 +167,13 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/activity-server/src/main/java/com/activity/activityserver" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.activity.manageapi.dto" />
+      <recent name="com.activity.appmanage.controller" />
+      <recent name="com.activity.manageapi.client" />
       <recent name="com.activity.userapi.vo" />
     </key>
   </component>
@@ -152,7 +187,14 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.app-manage">
+  <component name="RunManager" selected="Application.activity-server">
+    <configuration name="activity-server" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.activity.activityserver.ActivityServerApplication" />
+      <module name="activity-server" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="app-manage" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.activity.appmanage.AppManageApplication" />
       <module name="app-manage" />
@@ -163,6 +205,13 @@
     <configuration name="user-server" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.activity.userserver.UserServerApplication" />
       <module name="user-server" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ActivityServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="activity-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.activity.activityserver.ActivityServerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -197,7 +246,9 @@
     </configuration>
     <list>
       <item itemvalue="Application.app-manage" />
+      <item itemvalue="Application.activity-server" />
       <item itemvalue="Application.user-server" />
+      <item itemvalue="Spring Boot.ActivityServerApplication" />
       <item itemvalue="Spring Boot.UserServerApplication" />
       <item itemvalue="Spring Boot.AppManageApplication" />
       <item itemvalue="Spring Boot.CommonApplication" />

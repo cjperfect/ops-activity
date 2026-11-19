@@ -39,8 +39,8 @@
             <option name="tableUIInfoList">
               <list>
                 <TableUIInfo>
-                  <option name="className" value="SysUser" />
-                  <option name="tableName" value="sys_user" />
+                  <option name="className" value="ActivityBase" />
+                  <option name="tableName" value="activity_base" />
                 </TableUIInfo>
               </list>
             </option>

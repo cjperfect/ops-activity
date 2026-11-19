@@ -6,7 +6,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 import com.activity.manageapi.client.UserClient;
 
 @SpringBootApplication
-@EnableFeignClients(clients = UserClient.class)
+@EnableFeignClients(basePackages = "com.activity.manageapi.client")
 public class AppManageApplication {
 
     public static void main(String[] args) {

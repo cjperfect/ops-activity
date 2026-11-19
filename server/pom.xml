@@ -24,6 +24,7 @@
         <module>activity-manage-api</module>
         <module>app-manage</module>
         <module>user-server</module>
+        <module>activity-server</module>
     </modules>
 
     <properties>

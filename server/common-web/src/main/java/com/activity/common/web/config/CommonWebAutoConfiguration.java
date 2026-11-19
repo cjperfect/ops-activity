@@ -1,10 +1,15 @@
 package com.activity.common.web.config;
 
 import com.activity.common.web.GlobalExceptionHandler;
+import com.activity.common.web.auth.UserTokenArgumentResolver;
 import org.springframework.boot.autoconfigure.AutoConfiguration;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnWebApplication;
 import org.springframework.context.annotation.Bean;
+import org.springframework.web.method.support.HandlerMethodArgumentResolver;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
+
+import java.util.List;
 
 /**
  * common-web 自动装配。
@@ -15,6 +20,22 @@ import org.springframework.context.annotation.Bean;
 @AutoConfiguration
 @ConditionalOnWebApplication(type = ConditionalOnWebApplication.Type.SERVLET)
 public class CommonWebAutoConfiguration {
+
+    @Bean
+    @ConditionalOnMissingBean(UserTokenArgumentResolver.class)
+    public UserTokenArgumentResolver userTokenArgumentResolver() {
+        return new UserTokenArgumentResolver();
+    }
+
+    @Bean
+    public WebMvcConfigurer userTokenWebMvcConfigurer(UserTokenArgumentResolver resolver) {
+        return new WebMvcConfigurer() {
+            @Override
+            public void addArgumentResolvers(List<HandlerMethodArgumentResolver> resolvers) {
+                resolvers.add(resolver);
+            }
+        };
+    }
 
     /** 全局异常处理；业务侧声明同名 bean 即可覆盖 */
     @Bean

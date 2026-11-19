@@ -10,6 +10,6 @@
 - `common-core` 只保存 `Result` 等通用基础类型，不保存用户业务模型。
 
 当前调用链：`app-manage.UserController` → `activity-manage-api.UserClient` → `user-server.UserController`。
-服务端将 `UserEntity` 转换为 `UserVO`，管理端直接透传相同的数据结构。
+服务端将 `ActivityBaseEntity` 转换为 `UserVO`，管理端直接透传相同的数据结构。
 
 新增或修改跨服务接口时，同步更新 Feign 路径、HTTP 方法、参数及服务端 Controller，保持契约一致。

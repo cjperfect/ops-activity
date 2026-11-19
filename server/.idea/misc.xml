@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/common-core/pom.xml" />
         <option value="$PROJECT_DIR$/common-web/pom.xml" />
         <option value="$PROJECT_DIR$/user-server/pom.xml" />
+        <option value="$PROJECT_DIR$/activity-server/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

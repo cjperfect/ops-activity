@@ -50,7 +50,7 @@ public class GlobalExceptionHandler {
     @ExceptionHandler(MethodArgumentNotValidException.class)
     public Result<Void> handleMethodArgumentNotValid(MethodArgumentNotValidException ex, HttpServletRequest request) {
         String detail = buildFieldErrors(ex.getBindingResult().getFieldErrors());
-        log.warn("[参数校验失败] {} {} -> {}", request.getMethod(), request.getRequestURI(), detail);
+        log.error("[参数校验失败] {} {} -> {}", request.getMethod(), request.getRequestURI(), detail);
         return Result.fail(ResultCode.BAD_REQUEST.getCode(), detail);
     }
 
@@ -60,7 +60,7 @@ public class GlobalExceptionHandler {
     @ExceptionHandler(BindException.class)
     public Result<Void> handleBindException(BindException ex, HttpServletRequest request) {
         String detail = buildFieldErrors(ex.getBindingResult().getFieldErrors());
-        log.warn("[参数绑定失败] {} {} -> {}", request.getMethod(), request.getRequestURI(), detail);
+        log.error("[参数绑定失败] {} {} -> {}", request.getMethod(), request.getRequestURI(), detail);
         return Result.fail(ResultCode.BAD_REQUEST.getCode(), detail);
     }
 

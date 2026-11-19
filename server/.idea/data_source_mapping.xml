@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourcePerFileMappings">
+    <file url="file://$PROJECT_DIR$/db/schema/activity_base.sql" value="64bd5b59-d51f-46f7-84b6-05bf52a60535" />
     <file url="file://$PROJECT_DIR$/db/schema/sys_user.sql" value="64bd5b59-d51f-46f7-84b6-05bf52a60535" />
   </component>
 </project>
