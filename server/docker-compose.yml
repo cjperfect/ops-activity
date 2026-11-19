@@ -1,6 +1,38 @@
 # 本地开发：docker compose up -d
 # 可通过环境变量覆盖端口、数据库名和密码。初始化配置仅在数据卷为空时生效。
 services:
+  # 本地单机注册中心，使用内嵌存储；端口避开本机其他项目。
+  nacos:
+    image: nacos/nacos-server:v3.1.1
+    restart: unless-stopped
+    environment:
+      MODE: standalone
+      PREFER_HOST_MODE: hostname
+      TZ: Asia/Shanghai
+      NACOS_AUTH_ENABLE: "false"
+      NACOS_AUTH_ADMIN_ENABLE: "false"
+      NACOS_AUTH_CONSOLE_ENABLE: "false"
+      NACOS_AUTH_TOKEN: ${NACOS_AUTH_TOKEN:-YWN0aXZpdHktbG9jYWwtZGV2ZWxvcG1lbnQtc2VjcmV0LWtleQ==}
+      NACOS_AUTH_IDENTITY_KEY: activity
+      NACOS_AUTH_IDENTITY_VALUE: activity-local
+      JVM_XMS: 256m
+      JVM_XMX: 512m
+      JVM_XMN: 128m
+    ports:
+      - "127.0.0.1:${NACOS_PORT:-8858}:8848"
+      # 客户端 gRPC 端口必须为 HTTP 端口 + 1000。
+      - "127.0.0.1:${NACOS_GRPC_PORT:-9858}:9848"
+      - "127.0.0.1:${NACOS_CONSOLE_PORT:-18881}:8080"
+    volumes:
+      - nacos-data:/home/nacos/data
+      - nacos-logs:/home/nacos/logs
+    healthcheck:
+      test: ["CMD-SHELL", "curl -fsS http://127.0.0.1:8848/nacos/v3/admin/core/state/readiness >/dev/null"]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+      start_period: 60s
+
   mysql:
     image: mysql:8.4
     restart: unless-stopped
@@ -25,4 +57,6 @@ services:
       start_period: 40s
 
 volumes:
+  nacos-data:
+  nacos-logs:
   mysql-data:

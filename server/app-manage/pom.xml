@@ -15,6 +15,18 @@
     <description>运营活动管理后台服务：提供活动配置、奖品配置、活动列表等管理端 REST 接口</description>
 
     <dependencies>
+        <!-- Feign 通过注册中心选择服务实例 -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-loadbalancer</artifactId>
+        </dependency>
+
+        <!-- 服务注册与发现 -->
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+        </dependency>
+
         <!-- 统一返回体 + 全局异常处理（传递引入 common-core） -->
         <dependency>
             <groupId>com.activity</groupId>

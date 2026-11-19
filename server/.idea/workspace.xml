@@ -5,10 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7fdff9c6-6be3-4c28-a199-8864d562c839" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/data_sources_history.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/data_sources_history.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-manage/src/main/java/com/activity/appmanage/controller/DemoController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-api/target/user-api-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/user-api/target/user-api-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity-manage-api/src/main/java/com/activity/manageapi/client/UserClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/activity-manage-api/src/main/java/com/activity/manageapi/client/UserClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity-manage-api/target/classes/com/activity/manageapi/vo/UserVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/activity-manage-api/target/classes/com/activity/manageapi/vo/UserVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-manage/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app-manage/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-manage/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app-manage/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-core/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-server/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/user-server/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,61 +48,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="4.97165979525627E-33" />
-      <entry key="MS500" value="3.9720662857067764E-7" />
-      <entry key="S2" value="0.03928636079232474" />
-      <entry key="S5" value="0.41245243150317706" />
-      <entry key="S10" value="0.907205818646564" />
-      <entry key="S30" value="1.536792123497404" />
-      <entry key="S60" value="1.808482415746107" />
-      <entry key="M2" value="2.5704870509800752" />
-      <entry key="M5" value="6.194527342414798" />
-      <entry key="M10" value="11.681775601046944" />
-      <entry key="M15" value="16.786648902642085" />
-      <entry key="M30" value="31.91455651955172" />
-      <entry key="H1" value="55.22697826485248" />
-      <entry key="H2" value="79.15140135368614" />
-      <entry key="H4" value="97.06345821887228" />
-      <entry key="D1" value="116.50231487008385" />
-      <entry key="W1" value="120.34363776463658" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.00000005448344" />
+      <entry key="S2" value="1.023908581429895" />
+      <entry key="S5" value="1.3381416530689902" />
+      <entry key="S10" value="1.821425590547425" />
+      <entry key="S30" value="2.486743082566483" />
+      <entry key="S60" value="2.7787900466292452" />
+      <entry key="M2" value="3.5492980897815745" />
+      <entry key="M5" value="7.174051592839113" />
+      <entry key="M10" value="12.662452811217948" />
+      <entry key="M15" value="17.768132632091397" />
+      <entry key="M30" value="32.89695021787275" />
+      <entry key="H1" value="56.2117426312375" />
+      <entry key="H2" value="80.1404827322911" />
+      <entry key="H4" value="98.05676322873471" />
+      <entry key="D1" value="117.50097553277332" />
+      <entry key="W1" value="121.34344012108583" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0000000002454248" />
-      <entry key="S2" value="1.0040128519506206" />
-      <entry key="S5" value="1.1306773269659405" />
-      <entry key="S10" value="1.523723905226511" />
-      <entry key="S30" value="2.797508468153286" />
-      <entry key="S60" value="3.6451400447805984" />
-      <entry key="M2" value="4.447907631499028" />
-      <entry key="M5" value="6.986472695523771" />
-      <entry key="M10" value="11.190405194978032" />
-      <entry key="M15" value="14.627478420631286" />
-      <entry key="M30" value="22.56991136155134" />
-      <entry key="H1" value="32.45636914982053" />
-      <entry key="H2" value="41.66931815426475" />
-      <entry key="H4" value="48.30784446962225" />
-      <entry key="D1" value="55.37781894078931" />
-      <entry key="W1" value="56.76353085174361" />
+      <entry key="MS100" value="4.8555693588557036E-5" />
+      <entry key="MS500" value="0.13716649223106944" />
+      <entry key="S2" value="0.6110141673446157" />
+      <entry key="S5" value="0.926965320666185" />
+      <entry key="S10" value="1.3796492294870666" />
+      <entry key="S30" value="2.7064014057949994" />
+      <entry key="S60" value="3.585292714914453" />
+      <entry key="M2" value="4.41124277369225" />
+      <entry key="M5" value="6.96337920389425" />
+      <entry key="M10" value="11.171895179457405" />
+      <entry key="M15" value="14.611343791886645" />
+      <entry key="M30" value="22.557460219764184" />
+      <entry key="H1" value="32.44741531304772" />
+      <entry key="H2" value="41.663570037352926" />
+      <entry key="H4" value="48.304512417084396" />
+      <entry key="D1" value="55.37718230469186" />
+      <entry key="W1" value="56.763437627490134" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.0027430563979257755" />
-      <entry key="MS500" value="0.3073598456904855" />
-      <entry key="S2" value="0.7775199181440955" />
-      <entry key="S5" value="1.3683061203303721" />
-      <entry key="S10" value="2.2752296872402273" />
-      <entry key="S30" value="4.223917765543262" />
-      <entry key="S60" value="5.380144021339289" />
-      <entry key="M2" value="6.969987993198227" />
-      <entry key="M5" value="13.142821029894188" />
-      <entry key="M10" value="22.83825217058361" />
-      <entry key="M15" value="31.383131680679547" />
-      <entry key="M30" value="54.45842330991172" />
-      <entry key="H1" value="87.66335467900943" />
-      <entry key="H2" value="120.8074254120632" />
-      <entry key="H4" value="145.36346662451604" />
-      <entry key="D1" value="171.87861723881394" />
-      <entry key="W1" value="177.10694607899384" />
+      <entry key="MS100" value="4.8688884594510854E-5" />
+      <entry key="MS500" value="0.17932596407310508" />
+      <entry key="S2" value="1.0817489543218517" />
+      <entry key="S5" value="1.941612863290273" />
+      <entry key="S10" value="2.9655425755904363" />
+      <entry key="S30" value="5.053789307653699" />
+      <entry key="S60" value="6.275392330280026" />
+      <entry key="M2" value="7.904290028963782" />
+      <entry key="M5" value="14.096072529856258" />
+      <entry key="M10" value="23.798821389483727" />
+      <entry key="M15" value="32.347411935127255" />
+      <entry key="M30" value="55.427828564506555" />
+      <entry key="H1" value="88.63889485105206" />
+      <entry key="H2" value="121.79062256159646" />
+      <entry key="H4" value="146.3533711469436" />
+      <entry key="D1" value="172.87662978661166" />
+      <entry key="W1" value="178.10665356922854" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -112,9 +120,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.app-manage.executor": "Run",
-    "Application.userServer.executor": "Run",
+    "Application.userServer.executor": "Debug",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
@@ -156,7 +165,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="userServer" type="Application" factoryName="Application">
+    <configuration name="user-server" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.activity.userserver.UserServerApplication" />
       <module name="user-server" />
       <method v="2">
@@ -193,7 +202,7 @@
     </configuration>
     <list>
       <item itemvalue="Application.app-manage" />
-      <item itemvalue="Application.userServer" />
+      <item itemvalue="Application.user-server" />
       <item itemvalue="Spring Boot.UserServerApplication" />
       <item itemvalue="Spring Boot.AppManageApplication" />
       <item itemvalue="Spring Boot.CommonApplication" />

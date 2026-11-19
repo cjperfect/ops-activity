@@ -15,6 +15,12 @@
     <description>运营活动 C 端服务：微信登录、用户资料、活动参与、抽奖、兑换等小程序接口</description>
 
     <dependencies>
+        <!-- 服务注册与发现 -->
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+        </dependency>
+
         <!-- 统一返回体 + 全局异常处理（传递引入 common-core） -->
         <dependency>
             <groupId>com.activity</groupId>

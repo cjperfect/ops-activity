@@ -1,9 +1,16 @@
 server:
-  port: 8090
+  port: ${USER_SERVER_PORT:8090}
 
 spring:
   application:
     name: user-server
+  cloud:
+    nacos:
+      discovery:
+        server-addr: ${NACOS_SERVER_ADDR:127.0.0.1:8858}
+        namespace: ${NACOS_NAMESPACE:}
+        group: ${NACOS_GROUP:ACTIVITY_GROUP}
+        ip: ${NACOS_DISCOVERY_IP:127.0.0.1}
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://${MYSQL_HOST:127.0.0.1}:${MYSQL_PORT:3306}/${MYSQL_DB:activity}?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai&remarks=true&useInformationSchema=true
